@@ -10,6 +10,7 @@
     "prettier": "prettier --write \"**/*.{ts,tsx,js,jsx,json,css,md}\""
   },
   "dependencies": {
+    "@shadcn/ui": "^0.0.4",
     "autoprefixer": "^10.4.19",
     "next": "14.2.4",
     "react": "^18",

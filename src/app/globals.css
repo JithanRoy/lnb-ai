@@ -2,32 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
+/* src/app/globals.css */
+
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --primary-1: #e26a00; /* Orange */
+  --primary-2: #4f7cda; /* Blue */
+  --cancel: #ed7357;    /* Cancel Red */
+  --secondary: #e2e2e2; /* Light Gray */
+  --gray-100: #000000;  /* Black */
+  --gray-200: #4f4f4f;  /* Dark Gray */
+  --gray-300: #818181;  /* Medium Gray */
+  --gray-400: #cdcdcd;  /* Light Gray */
+  --gray-500: #e2e2e2;  /* Lightest Gray */
+  --gray-600: #f3f3f3;  /* Very Light Gray */
+  --white: #ffffff;     /* White */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
+/* Global styles */
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: 'Barlow', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--white);
+  color: var(--gray-100);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input, button {
+  outline: none;
+  border: none;
 }
