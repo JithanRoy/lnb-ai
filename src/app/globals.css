@@ -7,15 +7,15 @@
 :root {
   --primary-1: #e26a00; /* Orange */
   --primary-2: #4f7cda; /* Blue */
-  --cancel: #ed7357;    /* Cancel Red */
+  --cancel: #ed7357; /* Cancel Red */
   --secondary: #e2e2e2; /* Light Gray */
-  --gray-100: #000000;  /* Black */
-  --gray-200: #4f4f4f;  /* Dark Gray */
-  --gray-300: #818181;  /* Medium Gray */
-  --gray-400: #cdcdcd;  /* Light Gray */
-  --gray-500: #e2e2e2;  /* Lightest Gray */
-  --gray-600: #f3f3f3;  /* Very Light Gray */
-  --white: #ffffff;     /* White */
+  --gray-100: #000000; /* Black */
+  --gray-200: #4f4f4f; /* Dark Gray */
+  --gray-300: #818181; /* Medium Gray */
+  --gray-400: #cdcdcd; /* Light Gray */
+  --gray-500: #e2e2e2; /* Lightest Gray */
+  --gray-600: #f3f3f3; /* Very Light Gray */
+  --white: #ffffff; /* White */
 }
 
 /* Global styles */
@@ -27,7 +27,12 @@ body {
   color: var(--gray-100);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   padding: 0;
 }
@@ -42,7 +47,8 @@ a {
   color: inherit;
 }
 
-input, button {
+input,
+button {
   outline: none;
   border: none;
 }
